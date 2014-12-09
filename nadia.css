@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/* CSS Document */
+.items
+{
+	width:100%;
+	height:200px;	
+}
+#items_cat
+{
+	width:150px;
+	height:150px;
+	background-color:#09C;
+	margin-left:80px;	
+}
+
+
