@@ -1,0 +1,109 @@
+body,html{
+    padding:0;
+    margin:0;
+    height:100%;
+    width:100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#menu{
+    height:100px;
+    width:100%;
+    background-color:#fff;
+}
+
+.logo{
+    height:100px;
+    width:200px;
+    float:left;
+    background-color: #e61a54;
+}
+
+.nav{
+    float:left;
+}
+
+.nav ul{
+    padding: 0;
+    margin:0;
+}
+
+.nav ul li{
+    float: left;
+    list-style: none;
+    padding-left:15px;
+    padding-right: 15px;
+    line-height: 100px;
+    font-size: 1em;
+}
+
+.nofications{
+    float:right;
+    height:50px;
+    width:250px;
+    margin-top:25px;
+    border-left: 1px #ccc solid;
+}
+
+.nofications .profile_img{
+    float:left;
+    display: block;
+    height:50px;
+    width:50px;
+    border-radius: 25px;
+    background-color:#333;
+    margin-left:15px;
+    overflow: hidden;
+}
+
+.nofications .profile_img img{
+    max-height:50px;
+    max-width:50px;
+}
+
+.user_name{
+    float: left;
+    margin-left: 15px;
+}
+
+.user_name p{
+    margin: 0;
+    padding: 0;
+    line-height: 50px;
+}
+
+.notification_icon{
+    float:right;
+    height: 30px;
+    width:30px;
+    background-image: url(bel.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 7.5px;
+    margin-right: 10px;
+}
+
+.notification_icon p{
+    height:20px;
+    width:20px;
+    text-align: center;
+    line-height: 20px;
+    background-color: #e61a54;
+    border-radius: 10px;
+    color:#fff;
+    float:right;
+    
+}
+
+#banner{
+    height:400px;
+    width:100%;
+    overflow: hidden;
+}
+
+#banner img{
+    width:100%;
+    height:auto;
+    margin-top: -15%;
+}
